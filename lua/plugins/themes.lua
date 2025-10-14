@@ -5,7 +5,7 @@ return {
     priority = 1000, -- Make sure it loads first
     config = function()
       vim.g.everforest_background = "medium"
-      vim.cmd.colorscheme("everforest")
+--      vim.cmd.colorscheme("everforest")
     end,
   },
 
@@ -13,7 +13,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "everforest",
+--      colorscheme = "everforest",
     },
   },
 }
