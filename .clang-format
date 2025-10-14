@@ -1,0 +1,14 @@
+# .clang-format
+---
+# Based on Google's style, but with tabs and classic access specifier alignment
+BasedOnStyle: Google
+# Use real tab characters for indentation
+UseTab: Always
+# Set the indentation level to a single 4-space tab
+IndentWidth: 4
+# Set the column width for a tab character
+TabWidth: 4
+# Outdent access modifiers to be aligned with the class brace
+AccessModifierOffset: -4
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
